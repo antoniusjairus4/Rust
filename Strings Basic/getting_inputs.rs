@@ -1,10 +1,12 @@
-use std :: io :: stdin;
+use std::io::{stdin, stdout, Write};
 
 fn main()
 {
     let mut name = String::new();
 
-    println!("Enter your name:");
+    print!("Enter your name: ");
+    
+    stdout().flush().expect("Error");
 
     stdin()
         .read_line(&mut name)
