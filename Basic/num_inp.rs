@@ -2,7 +2,7 @@ use std :: io;
 
 fn main()
 {
-    let mut number = String :: new;
+    let mut number = String :: new ();
 
     print!("Enter a number : ");
 
