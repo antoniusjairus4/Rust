@@ -1,4 +1,4 @@
-use std::io::{stdin, stdout, Write};
+0use std::io::{stdin, stdout, Write};
 
 fn main()
 {
